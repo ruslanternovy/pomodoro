@@ -1,0 +1,73 @@
+.card {
+    background-color: #07058f;
+    max-width: 23rem;
+    width: 100%;
+    aspect-ratio: 2/1.3;
+    margin: auto;
+    transform: translateY(calc(42vh - 7rem));
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.flex { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex: 1;
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 71, 184);
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 182, 206);
+}
+
+.counter button {
+    margin: 0 .5rem;
+    font-size: 1rem;
+}
+
+.counter div {
+    font-size: 4rem;
+    font-weight: 0.1rem;
+    /* font-weight: bold; */
+}
+
+.position {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 0 .2rem;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #d606ba;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: orchid;
+}
+
+button:hover {
+    background-color: orchid;
+    color: blue;
+}

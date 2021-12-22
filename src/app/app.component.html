@@ -1,0 +1,35 @@
+<div class="card">
+  <section class="position" [@pageNumber]="pageNumber">
+    <div class="flex">
+      <h1 class="title">Set interval time</h1>
+      <div class="counter">
+        <button (click)="decrease_focusTime()">-</button>
+        <div>{{workDuration}}</div>
+        <button (click)="increase_focusTime()">+</button>
+      </div>
+      <button (click)="toggle('two')">next</button>
+    </div>
+    <div class="flex">
+      <h1 class="title">Set break interval time</h1>
+      <div class="counter">
+        <button (click)="decrease_breakTime()">-</button>
+        <div>{{breakDuration}}</div>
+        <button (click)="increase_breakTime()">+</button>
+      </div>
+      <div class="buttons">
+        <button (click)="toggle('one')">back</button>
+        <button (click)="toggle('three')">next</button>
+      </div>
+    </div>
+    <div class="flex">
+      <h1 class="title">{{message}}</h1>
+      <div class="counter">
+        <div>{{minutes}}:{{seconds}}</div>
+      </div>
+      <div class="buttons">
+        <button (click)="toggle('two')">back</button>
+        <button (click)="start()"> start</button>
+      </div>
+    </div>
+  </section>
+</div>
