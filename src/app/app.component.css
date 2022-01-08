@@ -19,13 +19,17 @@
 }
 
 .title {
+    font-family: "Roboto";
     text-align: center;
     color: rgb(255, 71, 184);
-    font-size: 1.4rem;
+    font-size: qrem;
     font-weight: 100;
 }
 
+
+
 .counter {
+    font-family: "Roboto";
     display: flex;
     align-items: center;
     color: rgb(255, 182, 206);
